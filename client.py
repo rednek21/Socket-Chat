@@ -1,7 +1,6 @@
 import socket
 import threading
 
-# Создаем сокет и устанавливаем соединение с сервером
 server_address = input("Введите IP адрес сервера: ")
 server_port = int(input("Введите порт сервера: "))
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
